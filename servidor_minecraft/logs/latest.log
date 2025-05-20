@@ -1,100 +1,214 @@
-[01:53:37] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
-[01:53:37] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[01:53:37] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[01:53:37] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[01:53:37] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
- - Geyser-Spigot (2.7.1-SNAPSHOT), ViaVersion (5.3.2), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
-[01:53:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[01:53:43] [ServerMain/INFO]: Loaded 1290 recipes
-[01:53:43] [ServerMain/INFO]: Loaded 1399 advancements
-[01:53:43] [Server thread/INFO]: Starting minecraft server version 1.21
-[01:53:43] [Server thread/INFO]: Loading properties
-[01:53:43] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[01:53:44] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[01:53:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[01:53:44] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:53:45] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[01:53:45] [Server thread/INFO]: Default game type: SURVIVAL
-[01:53:45] [Server thread/INFO]: Generating keypair
-[01:53:45] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:53:45] [Server thread/INFO]: Using epoll channel type
-[01:53:45] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[01:53:45] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[01:53:46] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[01:53:49] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[01:53:49] [Server thread/INFO]: [floodgate] Took 3,277ms to boot Floodgate
-[01:53:49] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
-[01:53:49] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
-[01:53:50] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[01:53:51] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[01:53:52] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.1-SNAPSHOT
-[01:53:54] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[01:53:54] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[01:53:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[01:53:54] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01:53:54] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[01:53:54] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01:53:54] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[01:53:54] [Server thread/INFO]: Preparing level "world"
-[01:53:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:53:55] [Server thread/INFO]: Time elapsed: 1207 ms
-[01:53:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[01:53:56] [Server thread/INFO]: Time elapsed: 238 ms
-[01:53:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[01:53:56] [Server thread/INFO]: Time elapsed: 97 ms
-[01:53:56] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[01:53:57] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
-[01:53:57] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
-[01:53:57] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
-[01:53:57] [Server thread/INFO]: [spark] Starting background profiler...
-[01:53:58] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[01:53:58] [Server thread/INFO]: [Geyser-Spigot] 
-[01:53:58] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.1-b833 (git-master-d0be6d9)
-[01:53:58] [Server thread/INFO]: [Geyser-Spigot] 
-[01:53:58] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[01:54:06] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 3724
-[01:54:06] [Server thread/INFO]: [Geyser-Spigot] Done (8.36s)! Run /geyser help for help!
-[01:54:06] [Server thread/INFO]: Done preparing level "world" (12.808s)
-[01:54:06] [Server thread/INFO]: Running delayed init tasks
-[01:54:06] [Server thread/INFO]: Done (30.293s)! For help, type "help"
-[01:54:06] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[01:54:06] [Server thread/INFO]: Timings Reset
-[01:55:15] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Trivago937
-[01:55:15] [localSession-7-2/INFO]: [Geyser-Spigot] Trivago937 (logged in as: Trivago937) has connected to the Java server
-[01:55:15] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Trivago937 joined (UUID: 00000000-0000-0000-0009-01f23668b629)
-[01:55:16] [Server thread/INFO]: .Trivago937 joined the game
-[01:55:16] [Server thread/INFO]: .Trivago937[/127.0.0.1:0] logged in with entity id 5 at ([world]169.5, 67.0, 4.5)
-[01:55:57] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Trivago937 has disconnected from the Java server because of Bedrock client timed out
-[01:55:57] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .Trivago937 disconnected
-[01:55:57] [Server thread/INFO]: .Trivago937 lost connection: Disconnected
-[01:55:57] [Server thread/INFO]: .Trivago937 left the game
-[01:56:00] [Server thread/INFO]: Stopping the server
-[01:56:00] [Server thread/INFO]: Stopping server
-[01:56:00] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
-[01:56:00] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[01:56:00] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[01:56:00] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
-[01:56:00] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[01:56:00] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[01:56:00] [Server thread/INFO]: Saving players
-[01:56:00] [Server thread/INFO]: Saving worlds
-[01:56:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:56:00] [WebSocketConnectReadThread-87/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[01:56:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[01:56:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[01:56:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[01:56:02] [Server thread/INFO]: [ChunkHolderManager] Saved 2209 block chunks, 625 entity chunks, 4 poi chunks in world 'world' in 2.06s
-[01:56:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[01:56:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[01:56:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[01:56:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[01:56:02] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.07s
-[01:56:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[01:56:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[01:56:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[01:56:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[01:56:02] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
-[01:56:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:56:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:56:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:56:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02:13:05] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
+[02:13:05] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[02:13:05] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[02:13:05] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/TerraformGenerator-19.1.1.jar'...
+[02:13:05] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/NotBounties-1.21.30.jar'...
+[02:13:07] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/NotBounties-1.21.30.jar' in 1380ms.
+[02:13:07] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/TerraformGenerator-19.1.1.jar' in 1573ms.
+[02:13:07] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
+[02:13:07] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+ - Minepacks (2.4.31.7-T20250421160243)
+[02:13:07] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
+ - Geyser-Spigot (2.7.1-SNAPSHOT), NotBounties (1.21.30), TerraformGenerator (19.1.1), ViaVersion (5.3.2), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
+[02:13:12] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[02:13:13] [ServerMain/INFO]: Loaded 1290 recipes
+[02:13:13] [ServerMain/INFO]: Loaded 1399 advancements
+[02:13:14] [Server thread/INFO]: Starting minecraft server version 1.21
+[02:13:14] [Server thread/INFO]: Loading properties
+[02:13:14] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[02:13:14] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[02:13:15] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:13:15] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:13:15] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[02:13:15] [Server thread/INFO]: Default game type: SURVIVAL
+[02:13:15] [Server thread/INFO]: Generating keypair
+[02:13:15] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:13:15] [Server thread/INFO]: Using epoll channel type
+[02:13:15] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[02:13:15] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[02:13:16] [Server thread/INFO]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
+[02:13:16] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loading 2 libraries... please wait
+[02:13:16] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/9.2.0/mysql-connector-j-9.2.0.pom
+[02:13:16] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/4.29.0/protobuf-java-4.29.0.pom
+[02:13:17] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/4.29.0/protobuf-parent-4.29.0.pom
+[02:13:17] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-bom/4.29.0/protobuf-bom-4.29.0.pom
+[02:13:17] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/lettuce/lettuce-core/6.5.3.RELEASE/lettuce-core-6.5.3.RELEASE.pom
+[02:13:17] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.115.Final/netty-common-4.1.115.Final.pom
+[02:13:17] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.115.Final/netty-parent-4.1.115.Final.pom
+[02:13:17] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+[02:13:17] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.115.Final/netty-handler-4.1.115.Final.pom
+[02:13:17] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.115.Final/netty-resolver-4.1.115.Final.pom
+[02:13:17] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.115.Final/netty-buffer-4.1.115.Final.pom
+[02:13:17] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.115.Final/netty-transport-4.1.115.Final.pom
+[02:13:17] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.115.Final/netty-transport-native-unix-common-4.1.115.Final.pom
+[02:13:17] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.115.Final/netty-codec-4.1.115.Final.pom
+[02:13:17] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.6.6/reactor-core-3.6.6.pom
+[02:13:17] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.pom
+[02:13:17] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/9.2.0/mysql-connector-j-9.2.0.jar
+[02:13:17] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/4.29.0/protobuf-java-4.29.0.jar
+[02:13:17] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.115.Final/netty-handler-4.1.115.Final.jar
+[02:13:17] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.115.Final/netty-resolver-4.1.115.Final.jar
+[02:13:17] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.115.Final/netty-common-4.1.115.Final.jar
+[02:13:17] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/lettuce/lettuce-core/6.5.3.RELEASE/lettuce-core-6.5.3.RELEASE.jar
+[02:13:17] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.115.Final/netty-buffer-4.1.115.Final.jar
+[02:13:17] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.115.Final/netty-transport-native-unix-common-4.1.115.Final.jar
+[02:13:17] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.115.Final/netty-transport-4.1.115.Final.jar
+[02:13:17] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.6.6/reactor-core-3.6.6.jar
+[02:13:17] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar
+[02:13:17] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.115.Final/netty-codec-4.1.115.Final.jar
+[02:13:17] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/reimagined-waddle/servidor_minecraft/libraries/com/mysql/mysql-connector-j/9.2.0/mysql-connector-j-9.2.0.jar
+[02:13:17] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/reimagined-waddle/servidor_minecraft/libraries/com/google/protobuf/protobuf-java/4.29.0/protobuf-java-4.29.0.jar
+[02:13:17] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/reimagined-waddle/servidor_minecraft/libraries/io/lettuce/lettuce-core/6.5.3.RELEASE/lettuce-core-6.5.3.RELEASE.jar
+[02:13:17] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/reimagined-waddle/servidor_minecraft/libraries/io/netty/netty-common/4.1.115.Final/netty-common-4.1.115.Final.jar
+[02:13:17] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/reimagined-waddle/servidor_minecraft/libraries/io/netty/netty-handler/4.1.115.Final/netty-handler-4.1.115.Final.jar
+[02:13:17] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/reimagined-waddle/servidor_minecraft/libraries/io/netty/netty-resolver/4.1.115.Final/netty-resolver-4.1.115.Final.jar
+[02:13:17] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/reimagined-waddle/servidor_minecraft/libraries/io/netty/netty-buffer/4.1.115.Final/netty-buffer-4.1.115.Final.jar
+[02:13:17] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/reimagined-waddle/servidor_minecraft/libraries/io/netty/netty-transport-native-unix-common/4.1.115.Final/netty-transport-native-unix-common-4.1.115.Final.jar
+[02:13:17] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/reimagined-waddle/servidor_minecraft/libraries/io/netty/netty-codec/4.1.115.Final/netty-codec-4.1.115.Final.jar
+[02:13:17] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/reimagined-waddle/servidor_minecraft/libraries/io/netty/netty-transport/4.1.115.Final/netty-transport-4.1.115.Final.jar
+[02:13:17] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/reimagined-waddle/servidor_minecraft/libraries/io/projectreactor/reactor-core/3.6.6/reactor-core-3.6.6.jar
+[02:13:17] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/reimagined-waddle/servidor_minecraft/libraries/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar
+[02:13:17] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[02:13:19] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[02:13:19] [Server thread/INFO]: [floodgate] Took 1,769ms to boot Floodgate
+[02:13:19] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
+[02:13:19] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
+[02:13:20] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[02:13:20] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[02:13:21] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.1-SNAPSHOT
+[02:13:23] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[02:13:23] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[02:13:23] [Server thread/INFO]: [Minepacks] Loading server plugin Minepacks v2.4.31.7-T20250421160243
+[02:13:23] [Server thread/INFO]: [NotBounties] Loading server plugin NotBounties v1.21.30
+[02:13:23] [Server thread/INFO]: [TerraformGenerator] Loading server plugin TerraformGenerator v19.1.1
+[02:13:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:13:23] [Server thread/INFO]: [TerraformGenerator] Enabling TerraformGenerator v19.1.1
+[02:13:23] [Server thread/INFO]: [TerraformGenerator] Custom Logger Initialized
+[02:13:24] [Server thread/INFO]: [TerraformGenerator] bStats Metrics enabled.
+[02:13:24] [Server thread/INFO]: [TerraformGenerator] Detected version: 1.21, number: 21.0
+[02:13:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:13:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:13:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:13:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:13:24] [Server thread/INFO]: Preparing level "world"
+[02:13:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:13:26] [Server thread/INFO]: Time elapsed: 1207 ms
+[02:13:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[02:13:26] [Server thread/INFO]: Time elapsed: 262 ms
+[02:13:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[02:13:26] [Server thread/INFO]: Time elapsed: 119 ms
+[02:13:26] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[02:13:27] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
+[02:13:27] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[02:13:27] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
+[02:13:28] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.4.31.7-T20250421160243
+[02:13:28] [Server thread/INFO]: [Minepacks] Starting Minepacks in standalone mode!
+[02:13:28] [Server thread/INFO]: [Minepacks] File "/config.yml" extracted successfully!
+[02:13:28] [Server thread/INFO]: [Minepacks] Config file successfully loaded.
+[02:13:28] [Server thread/WARN]: [Minepacks] Paper support is experimental! Use at your own risk!
+[02:13:28] [Server thread/WARN]: [Minepacks] No guarantee for data integrity! Backup constantly!
+[02:13:29] [Server thread/INFO]: [Minepacks] File "/lang/en.yml" extracted successfully!
+[02:13:29] [Server thread/INFO]: [Minepacks] Language file successfully loaded. Language: english  Author: GeorgH93
+[02:13:29] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Starting...
+[02:13:29] [Thread-6/WARN]: [Minepacks] The updater could not find any files for the project id 83445 
+[02:13:29] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Start completed.
+[02:13:29] [Server thread/INFO]: [Minepacks] File "/lang/items_en.yml" extracted successfully!
+[02:13:29] [Server thread/INFO]: [Minepacks] Item name language file successfully loaded. Language: english  Author: GeorgH93
+[02:13:29] [Server thread/INFO]: [Minepacks] Loading item translations ...
+[02:13:29] [Server thread/INFO]: [Minepacks] Finished loading item translations for 826 items.
+[02:13:29] [Server thread/INFO]: [Minepacks]  Minepacks has been enabled!  :) 
+[02:13:29] [Server thread/INFO]: [NotBounties] Enabling NotBounties v1.21.30
+[02:13:29] [Server thread/INFO]: [NotBounties] Created new item-values.yml file.
+[02:13:29] [Thread-6/INFO]: [Minepacks] Start downloading update: 2.4.32
+[02:13:29] [Thread-6/INFO]: [Minepacks] Downloading update: 10% of 1.84 MiB
+[02:13:30] [Thread-6/INFO]: [Minepacks] Downloading update: 20% of 1.84 MiB
+[02:13:30] [Thread-6/INFO]: [Minepacks] Downloading update: 30% of 1.84 MiB
+[02:13:30] [Thread-6/INFO]: [Minepacks] Downloading update: 40% of 1.84 MiB
+[02:13:30] [Thread-6/INFO]: [Minepacks] Downloading update: 50% of 1.84 MiB
+[02:13:30] [Thread-6/INFO]: [Minepacks] Downloading update: 60% of 1.84 MiB
+[02:13:30] [Thread-6/INFO]: [Minepacks] Downloading update: 70% of 1.84 MiB
+[02:13:30] [Thread-6/INFO]: [Minepacks] Downloading update: 80% of 1.84 MiB
+[02:13:30] [Thread-6/INFO]: [Minepacks] Downloading update: 90% of 1.84 MiB
+[02:13:30] [Thread-6/INFO]: [Minepacks] Downloading update: 100% of 1.84 MiB
+[02:13:30] [Thread-6/INFO]: [Minepacks] Finished updating.
+[02:13:31] [Server thread/INFO]: [spark] Starting background profiler...
+[02:13:31] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[02:13:31] [Server thread/INFO]: [Geyser-Spigot] 
+[02:13:31] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.1-b833 (git-master-d0be6d9)
+[02:13:31] [Server thread/INFO]: [Geyser-Spigot] 
+[02:13:31] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[02:13:39] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on UDP port 3724
+[02:13:39] [Server thread/INFO]: [Geyser-Spigot] Done (8.174s)! Run /geyser help for help!
+[02:13:39] [Server thread/INFO]: Done preparing level "world" (15.125s)
+[02:13:39] [Server thread/INFO]: Running delayed init tasks
+[02:13:39] [Server thread/INFO]: Done (35.724s)! For help, type "help"
+[02:13:39] [Server thread/INFO]: Timings Reset
+[02:13:39] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[02:14:15] [epollEventLoopGroup-9-1/INFO]: [Geyser-Spigot] Player connected with username Trivago937
+[02:14:15] [localSession-12-2/INFO]: [Geyser-Spigot] Trivago937 (logged in as: Trivago937) has connected to the Java server
+[02:14:16] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Trivago937 joined (UUID: 00000000-0000-0000-0009-01f23668b629)
+[02:14:16] [Server thread/INFO]: .Trivago937 joined the game
+[02:14:17] [Server thread/INFO]: .Trivago937[/127.0.0.1:0] logged in with entity id 96 at ([world]165.9298622287785, 68.1090547294065, 1.048942135494426)
+[02:14:21] [Server thread/INFO]: .Trivago937 was slain by Zombie
+[02:15:57] [Server thread/INFO]: Made .Trivago937 a server operator
+[02:16:12] [Server thread/INFO]: .Trivago937 issued server command: /defaultgamemode survival
+[02:16:12] [Server thread/INFO]: [.Trivago937: The default game mode is now Survival Mode]
+[02:16:14] [Server thread/INFO]: .Trivago937 issued server command: /gamemode creative
+[02:16:14] [Server thread/INFO]: [.Trivago937: Set own game mode to Creative Mode]
+[02:17:28] [Server thread/INFO]: Stopping the server
+[02:17:28] [Server thread/INFO]: Stopping server
+[02:17:28] [Server thread/INFO]: [TerraformGenerator] Disabling TerraformGenerator v19.1.1
+[02:17:28] [Server thread/INFO]: [NotBounties] Disabling NotBounties v1.21.30
+[02:17:28] [Server thread/INFO]: [NotBounties] Generating new database ID.
+[02:17:28] [Server thread/INFO]: [NotBounties] Created backup directory.
+[02:17:28] [Server thread/INFO]: [Minepacks] Disabling Minepacks v2.4.31.7-T20250421160243
+[02:17:28] [Thread-15/WARN]: [Minepacks] The updater could not find any files for the project id 83445 
+[02:17:29] [Thread-15/INFO]: [Minepacks] Start downloading update: 2.4.32
+[02:17:29] [Thread-15/INFO]: [Minepacks] Downloading update: 10% of 1.84 MiB
+[02:17:29] [Thread-15/INFO]: [Minepacks] Downloading update: 20% of 1.84 MiB
+[02:17:29] [Thread-15/INFO]: [Minepacks] Downloading update: 30% of 1.84 MiB
+[02:17:29] [Thread-15/INFO]: [Minepacks] Downloading update: 40% of 1.84 MiB
+[02:17:29] [Thread-15/INFO]: [Minepacks] Downloading update: 50% of 1.84 MiB
+[02:17:29] [Thread-15/INFO]: [Minepacks] Downloading update: 60% of 1.84 MiB
+[02:17:29] [Thread-15/INFO]: [Minepacks] Downloading update: 70% of 1.84 MiB
+[02:17:29] [Thread-15/INFO]: [Minepacks] Downloading update: 80% of 1.84 MiB
+[02:17:29] [Thread-15/INFO]: [Minepacks] Downloading update: 90% of 1.84 MiB
+[02:17:29] [Thread-15/INFO]: [Minepacks] Downloading update: 100% of 1.84 MiB
+[02:17:29] [Thread-15/INFO]: [Minepacks] Finished updating.
+[02:17:29] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown initiated...
+[02:17:29] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown completed.
+[02:17:29] [Server thread/INFO]: [Minepacks]  Minepacks has been disabled.  :( 
+[02:17:29] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
+[02:17:29] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[02:17:29] [Server thread/INFO]: [Geyser-Spigot] Kicking 1 player(s)
+[02:17:29] [Server thread/INFO]: [Geyser-Spigot] Trivago937 has disconnected from the Java server because of Apagando el proxy de Geyser.
+[02:17:29] [Server thread/INFO]: [Geyser-Spigot] Kicked all players!
+[02:17:29] [Geyser Spigot connection thread-11-3/INFO]: [floodgate] Floodgate player logged in as .Trivago937 disconnected
+[02:17:30] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[02:17:30] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
+[02:17:30] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[02:17:30] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[02:17:30] [Server thread/INFO]: Saving players
+[02:17:30] [Server thread/INFO]: .Trivago937 lost connection: Server closed
+[02:17:30] [Server thread/INFO]: .Trivago937 left the game
+[02:17:30] [WebSocketConnectReadThread-114/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[02:17:30] [Server thread/INFO]: Saving worlds
+[02:17:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:17:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[02:17:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[02:17:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[02:17:32] [Server thread/INFO]: [ChunkHolderManager] Saved 2016 block chunks, 1206 entity chunks, 0 poi chunks in world 'world' in 2.19s
+[02:17:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[02:17:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[02:17:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[02:17:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[02:17:32] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.07s
+[02:17:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[02:17:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[02:17:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[02:17:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[02:17:32] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[02:17:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:17:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:17:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:17:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
