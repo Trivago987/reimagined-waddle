@@ -29,3 +29,14 @@
 [00:51:38] [Server thread/INFO]: Time elapsed: 5931 ms
 [00:51:38] [Server thread/INFO]: Done (11.892s)! For help, type "help"
 [00:52:38] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[01:22:26] [Server thread/INFO]: Stopping the server
+[01:22:26] [Server thread/INFO]: Stopping server
+[01:22:26] [Server thread/INFO]: Saving players
+[01:22:26] [Server thread/INFO]: Saving worlds
+[01:22:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:22:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[01:22:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[01:22:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:22:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:22:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:22:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
